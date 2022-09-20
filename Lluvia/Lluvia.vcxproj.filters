@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Helpers">
+      <UniqueIdentifier>{c8c5f206-8f64-4282-9321-17e6300d9e5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Helpers\ResourceHandles">
+      <UniqueIdentifier>{d6289eae-44f8-4925-a8d5-7773143c3515}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{68e64793-5922-4a7e-ae0a-98f53c978e16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScreenStack">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Engine\Managers">
+      <UniqueIdentifier>{ec1e270b-bece-49a4-a2a9-37264b539454}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.cpp">
+      <Filter>Main Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Main Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CFile.cpp">
+      <Filter>Helpers\ResourceHandles</Filter>
+    </ClCompile>
+    <ClCompile Include="Mallocker.cpp">
+      <Filter>Helpers\ResourceHandles</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenStack.cpp">
+      <Filter>ScreenStack</Filter>
+    </ClCompile>
+    <ClCompile Include="InitialScreen.cpp">
+      <Filter>ScreenStack</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Engine\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32Handle.cpp">
+      <Filter>Helpers\ResourceHandles</Filter>
+    </ClCompile>
+    <ClCompile Include="MyExceptions.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Main Files</Filter>
+    </ClInclude>
+    <ClInclude Include="App.h">
+      <Filter>Main Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CFile.h">
+      <Filter>Helpers\ResourceHandles</Filter>
+    </ClInclude>
+    <ClInclude Include="Mallocker.h">
+      <Filter>Helpers\ResourceHandles</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexStructures.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenStack.h">
+      <Filter>ScreenStack</Filter>
+    </ClInclude>
+    <ClInclude Include="InitialScreen.h">
+      <Filter>ScreenStack</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Engine\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32Handle.h">
+      <Filter>Helpers\ResourceHandles</Filter>
+    </ClInclude>
+    <ClInclude Include="MyExceptions.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Main.VS.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="Main.PS.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="LastState.txt" />
+    <Text Include="Log.txt" />
+  </ItemGroup>
+</Project>
